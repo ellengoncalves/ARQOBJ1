@@ -55,4 +55,9 @@ public class Telefone {
 	public void exibir() {
 		System.out.printf("Número de telefone: +%d %d %d%n%n", codigo_internacional, codigo_area, numero_telefone, codigo_internacional, codigo_area, numero_telefone);
 	}
+
+	@Override
+	public String toString() {
+		return "+" + this.codigo_internacional + " (" + this.codigo_area + ") " + this.numero_telefone;
+	}
 }

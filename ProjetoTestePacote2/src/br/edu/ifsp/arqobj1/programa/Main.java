@@ -14,7 +14,7 @@ public class Main {
 		// 'private static int INCREMENTO' não está mais relacionado ao objeto em si, a partir dessa
 		// instancia, todos os objetos terão o mesmo valor de incremento, como uma variável global/compartilhada
 		
-		// método não estático: métodos chamados quando cria-se um objeto
+		// método não estático/de instancia: métodos chamados quando cria-se um objeto
 		// esses métodos n-estáticos conseguem acessar varáveis de instancia estáticas
 		
 		

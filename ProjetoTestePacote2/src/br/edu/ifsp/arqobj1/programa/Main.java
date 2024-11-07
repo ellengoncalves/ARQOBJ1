@@ -6,16 +6,19 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		// métodos estáticos: são atributos ou métodos que não precisam ser instanciados 
-		// a partir de um objeto, ou seja, não precisam da existência de um objeto para serem chamados
-		// sendo assim, métodos estáticos (como 'main') só conseguem chamar outros métodos estáticos,
-		// sem que um objeto seja instanciado
-		// esses tipos de métodos não conseguem manipular os dados diretamente de uma classe
-		// 'private static int INCREMENTO' não está mais relacionado ao objeto em si, a partir dessa
-		// instancia, todos os objetos terão o mesmo valor de incremento, como uma variável global/compartilhada
+		// métodos estáticos: 
+		// 		- são atributos ou métodos que não precisam ser instanciados a partir de um objeto, 
+		//		  ou seja, não precisam da existência de um objeto para serem chamados
+		// 		- sendo assim, métodos estáticos (como 'main') só conseguem chamar outros métodos estáticos,
+		// 		  sem que um objeto seja instanciado
+		// 		- esses tipos de métodos não conseguem manipular os dados diretamente de uma classe
+		// 		- 'private static int INCREMENTO' não está mais relacionado ao objeto em si, a partir dessa
+		// 		  instancia, todos os objetos terão o mesmo valor de incremento, como uma variável global ou 
+		// 		  compartilhada, que fica acessível a todos os objetos da mesma classe
 		
-		// método não estático/de instancia: métodos chamados quando cria-se um objeto
-		// esses métodos n-estáticos conseguem acessar varáveis de instancia estáticas
+		// método não estático/de instancia: 
+		// 		- métodos chamados quando cria-se um objeto
+		// 		- esses métodos n-estáticos conseguem acessar varáveis de instancia estáticas
 		
 		
 		System.out.printf("->> criação de método estáticos pré-definidos:\n");
